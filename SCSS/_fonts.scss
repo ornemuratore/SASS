@@ -1,0 +1,19 @@
+$pDesktop:20px;
+$fontFamily: 'Arial';
+
+
+.col-lg-6{
+	p{
+	font:{
+		size:$pDesktop;
+		family:$fontFamily;
+		weight:bold;
+		}
+	}
+
+} 
+
+.footersass{
+    font-size: 18px;
+    text-align: center;
+}

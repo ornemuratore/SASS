@@ -1,0 +1,33 @@
+@import "fonts";
+
+
+$babyrose:rgb(255, 176, 238);
+$black:rgb(0,0,0);
+$pastelpurple:rgb(235, 183, 255);
+
+
+.col-lg-6{
+	h1{
+	 color:$babyrose;
+	}
+	p{
+	color:$black
+	font-size:$pDesktop;
+	}
+} 
+
+.texto{
+	background:linear-gradient(to bottom, rgb(255, 247, 247), rgb(255, 187, 255));
+	&__encabezado{
+		color:$black;
+	}
+	&__parrafo{
+		font-size:20px;
+		&--color{
+		color:$babyrose;
+		 @media only screen and (max-width:780px){
+		color:$black
+		}
+		}
+	}
+}

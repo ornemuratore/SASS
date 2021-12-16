@@ -1,0 +1,63 @@
+h1 {
+  text-align: center;
+  color: blueviolet;
+  font-size: x-large;
+}
+
+body {
+  background-color: #f8b1e0;
+}
+
+.col-lg-6 h1 {
+  color: #ffcef9;
+}
+.col-lg-6 p {
+  color: black;
+  font-size: 25px;
+}
+
+.texto {
+  background: linear-gradient(to bottom, #fff6f6, #f171a7);
+}
+.texto__encabezado {
+  color: #d4afff;
+}
+.texto__parrafo {
+  font-size: 20px;
+}
+.texto__parrafo--color {
+  color: #ffcef9;
+}
+@media only screen and (max-width: 480px) {
+  .texto__parrafo--color {
+    color: #d4afff;
+  }
+}
+
+.titulo {
+  text-align: center;
+  padding: 50px 0;
+}
+@media only screen and (max-width: 768px) {
+  .titulo__principal {
+    font-size: 35px;
+    font-weight: bold;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .titulo__principal {
+    font-size: 50px;
+    font-weight: bold;
+  }
+}
+.titulo__principal--color {
+  color: #ffcef9;
+}
+
+.footersass {
+  font-size: 18px;
+  color: black;
+  text-align: center;
+}
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,13 @@
+h1{
+    text-align: center;
+    color: blueviolet;
+    font-size: x-large;
+}
+
+body{
+    background-color: rgb(248, 177, 224);
+}
+@import "colors";
+@import "fonts";
+@import "nav";
+@import "content";

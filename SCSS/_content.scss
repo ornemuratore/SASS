@@ -1,0 +1,26 @@
+@import "colors";
+
+$centrar:center;
+$h1Desk:50px;
+$h1Mob:35px;
+.titulo{
+	text-align:$centrar;
+	padding:50px 0;
+	&__principal{
+		@media only screen and (max-width: 780px){
+			font:{
+				size:$h1Mob;
+				weight:bold;
+			}	
+		}
+		@media only screen and (min-width: 1024px){
+			font:{
+				size:$h1Desk;
+				weight:bold;
+			}
+		}
+		&--color{
+			color:$pastelpurple
+		}		
+	}
+}
